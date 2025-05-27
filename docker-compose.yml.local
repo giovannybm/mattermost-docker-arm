@@ -16,7 +16,7 @@ services:
     build:
       context: app
       args:
-        - MM_VERSION=v9.8.1
+        - MM_VERSION=v10.7.1
         - GOOS=linux
         - GOARCH=arm64
     restart: unless-stopped
